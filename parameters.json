@@ -1,0 +1,44 @@
+[
+    {
+      "ParameterKey": "ClusterName",
+      "ParameterValue": "NVS-DM-ECS-CLUSTER-BACKEND01"
+    },
+    {
+      "ParameterKey": "Vpcid",
+      "ParameterValue": "vpc-0c6701f468355f153"
+    },
+     {
+      "ParameterKey": "ListenerARN",
+      "ParameterValue": "arn:aws:elasticloadbalancing:us-east-1:180315349723:listener/app/ALB-GLASSBOX-BE-USNV-PRD-001/4af8f3439195e515/a0c5f47e41fd5ac3"
+    
+    },
+    {
+      "ParameterKey": "ECSServiceName",
+      "ParameterValue": "GLASSBOX-ADMIN-SERVICE03"
+    },
+    {
+      "ParameterKey": "ECSServiceRoleName",
+      "ParameterValue": "RRDRAR26DEV_AWS_APP01-mesh-ec2-ip-role"
+    },
+  
+    {
+      "ParameterKey": "ServiceHealthCheckPath",
+      "ParameterValue": "/glassbox/api/admin/healthchecker.html"
+    },
+    {
+      "ParameterKey": "ServicePathPattern",
+      "ParameterValue": "/glassbox/api/admin*"
+    },
+    {
+      "ParameterKey": "ListenerRulePriority",
+      "ParameterValue": "1"
+    },
+    {
+      "ParameterKey": "AutoScalingRoleARN",
+      "ParameterValue": "arn:aws:iam::180315349723:role/RRDRAR26DEV_AWS_APP01-mesh-ec2-ip-role"
+    },
+    {
+      "ParameterKey": "EFSDriveID",
+      "ParameterValue": "fs-0a34708e6ef5b1fdc"
+    }
+  ]

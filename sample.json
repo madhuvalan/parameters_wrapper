@@ -1,0 +1,18 @@
+[
+    {
+        "service_name1" : {
+        "region_name" : "us-east-2",
+        "ClusterName" :"dummy-NVS-DM-ECS-CLUSTER-BACKEND01",
+        "Vpcid": "dummy-vpc-0c6701f468355f153"
+        }
+    },
+
+    {
+        "service_name2" : {
+        "region_name" : "us-west-2",
+        "AutoScalingRoleARN" :"arn:aws:iam::180315349723:role/RRDRAR26DEV_AWS_APP01-mesh-ec2-ip-role-dummy"
+        }
+    }
+
+
+]
